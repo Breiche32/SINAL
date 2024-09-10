@@ -1,0 +1,38 @@
+.Skills-Center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 50%; */
+  background-color: #e3ecf1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.Skills-Parent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* background-color: #3f51b5; */
+}
+
+.Skills-Main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  gap: 4rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.My-Skills {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}

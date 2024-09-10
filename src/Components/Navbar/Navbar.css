@@ -1,0 +1,41 @@
+.NavBar-Main-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  gap: 2rem;
+  top: 0;
+  width: 100%;
+  background-color: #6d7d8d;
+  height: 10vh;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.Navbar-Logo {
+  width: 5%;
+}
+
+.Navbar-Items {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.Navbar-Items-Color {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Navbar-Items-Color:hover {
+  transition: ease 300ms;
+  color: rgb(255, 107, 107);
+}
+
+.Navbar-icon {
+  padding-right: 2rem;
+}

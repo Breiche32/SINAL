@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Swis721 BlkOul Bt";
+  src: url("/fonts/Swis721BlkOulBt.woff2") format("woff2"),
+    url("/fonts/Swis721BlkOulBt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.About-Main-Container {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background-color: #e3ecf1;
+  color: black;
+  gap: 1rem;
+  padding-top: 9vh;
+  justify-content: center;
+}
+
+.About-hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 2rem;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: "Swis721 BlkOul Bt", "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.About-Name {
+  font-size: 55px;
+  font-weight: bold;
+  color: #6d7d8d;
+}
+
+.About-Description {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+  gap: 2rem;
+  padding-left: 1.5rem;
+}
+
+.About-Me {
+  font-family: "Swis721 BlkOul Bt", "Times New Roman", Times, serif;
+  font-size: 145px;
+  color: black;
+  text-align: right;
+  margin: -20px 0 0 0;
+}
+
+.About-Paragraph {
+  width: 66.667%;
+  font-size: 22px;
+  padding-top: 4.5rem;
+  color: black;
+}
