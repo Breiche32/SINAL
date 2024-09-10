@@ -16,12 +16,11 @@ const Navbar = () => {
       }
     }
   }, [location]);
-
   return (
     <div className="NavBar-Main-Container">
       <div className="Navbar-Logo">
         <NavLink to={"/"} style={{ color: "white" }}>
-          <img
+         <img
             style={{
               transform: "scale(1.6)",
               width: "100%",
